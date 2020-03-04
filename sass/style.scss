@@ -70,6 +70,13 @@ body {
             display: none;
           }
         }
+        .list-unstyled {
+          .nav-link {
+            font-size: rem(13px);
+            padding-left: -8rem;
+            text-align: left;
+          }
+        }
       }
       .content {
         margin-left: rem(80px);
@@ -85,8 +92,6 @@ body {
     margin-right: rem(4px);
     font-size: rem(30px);
     vertical-align: middle;
-    height: rem(32px);
-    width: rem(32px);
     @extend .text-mattGray; //border: 2px solid red;
     display: inline;
     justify-content: center;
@@ -95,7 +100,8 @@ body {
   .text {
     font-size: rem(14px);
     @extend .text-mattGray;
-  }&:hover,
+  }
+  &:hover,
   &.active {
     @extend .text-mattBlackDark;
     .icon,
